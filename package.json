@@ -1,0 +1,16 @@
+{
+  "name": "node_mongo-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startn": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.11.0",
+    "nodemon": "^2.0.20"
+  }
+}
