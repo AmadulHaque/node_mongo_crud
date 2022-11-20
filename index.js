@@ -1,5 +1,6 @@
 var MongodbClint = require('mongodb').MongoClient;
 var URl = "mongodb://127.0.0.1:27017/";
+var URl = "mongodb+srv://learnmongo:learnmongo@cluster0.zfrg8j8.mongodb.net/?retryWrites=true&w=majority";
 
 var config = {useUnifiedTopology:true};
 MongodbClint.connect(URl,config,function (error,MyMongoClient) {
